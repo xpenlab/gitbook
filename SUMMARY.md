@@ -1,0 +1,14 @@
+# Table of Contents
+
+* [Introduction](README.md)
+* [Quick Start](quick-start.md)
+* [Platform Overview](platform-overview.md)
+* [Account & Registration](account/README.md)
+  * [Bridge Assets](account/bridge-assets.md)
+  * [Account Registration](account/registration.md)
+  * [Deposit & Withdrawal](account/deposit-withdraw.md)
+* [Core Functions](core-features/README.md)
+  * [Borrow](core-features/borrow.md)
+  * [Lend](core-features/lend.md)
+* [Platform Rewards](https://github.com/xpenlab/taolend/blob/main/README.md)
+* [FAQ](faq.md)

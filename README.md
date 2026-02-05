@@ -42,12 +42,6 @@ Once a loan enters collection, borrowers have a **3-day** collection grace perio
 - Closely monitor the health of your active loans
 - Safeguard your wallet private keys and recovery phrases
 
-## Get Started
-
-### New Users
-
-👉 [Quick Start Guide](quick-start.md) - Get started with Taolend in just 5 minutes
-
 ### Need Help
 
 - 📚 FAQ - [Find answers to common questions](faq.md)

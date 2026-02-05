@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [Quick Start](quick-start.md)
+  * [Quick Start Borrow](quick-start-borrow.md)
+  * [Quick Start Lend](quick-start-lend.md)
 * [Platform Overview](platform-overview.md)
 * [Account & Registration](account/README.md)
   * [Bridge Assets](account/bridge-assets.md)

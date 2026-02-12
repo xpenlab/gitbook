@@ -98,7 +98,7 @@ Connect both your Bittensor wallet and EVM wallet (same process as bridging TAO)
 1. **Select Subnet**
    - ALPHA tokens are associated with specific Subnets
    - Select the Subnet where your ALPHA is held
-   - Examples: Subnet 1, Subnet 8, Subnet 18
+   - Examples: 116, 120
 
 2. **Enter Bridge Amount**
    - Enter the amount of ALPHA you wish to bridge
@@ -132,4 +132,3 @@ Connect both your Bittensor wallet and EVM wallet (same process as bridging TAO)
 - You will need:
   - **1000 ALPHA** bridged as collateral
   - **0.1 TAO** bridged for gas fees
-  

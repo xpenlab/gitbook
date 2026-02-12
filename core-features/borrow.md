@@ -141,7 +141,7 @@ Borrow Amount = Collateral Amount × ALPHA Price × Maximum Acceptable Price
 - Collateral Amount: 1000 ALPHA
 - ALPHA Price: 0.05 TAO
 - Maximum Acceptable Price: 60%
-- Borrow Amount: 30 TAO
+- Borrow Amount: 1 ~ 30 TAO
 
 #### 2.3 Enter Borrow Amount
 

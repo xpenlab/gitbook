@@ -10,7 +10,7 @@ Taolend supports two participation modes. Choose the one that fits your needs:
 
 If you hold **TAO** and want to earn yield through lending:
 
-👉 **[Go to Lender Quick Start Guide](quick-start-lend.md)**
+👉 **[Go to Lender Quick Start Guide](./quick-start-lend.md)**
 
 ---
 
@@ -18,7 +18,7 @@ If you hold **TAO** and want to earn yield through lending:
 
 If you hold **ALPHA** and want to borrow TAO:
 
-👉 **[Go to Borrower Quick Start Guide](quick-start-borrow.md)**
+👉 **[Go to Borrower Quick Start Guide](./quick-start-borrow.md)**
 
 ---
 

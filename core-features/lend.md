@@ -122,7 +122,6 @@ Choose the Subnet of the ALPHA collateral you are willing to accept.
 **Tips**:
 - Choose Subnets you understand
 - ALPHA prices and risks vary by Subnet
-- You can create multiple Offers for different Subnets
 
 #### 2.2 Set Amount
 
@@ -130,7 +129,7 @@ Set the maximum TAO Amount you are willing to lend.
 
 **Rules**:
 - Minimum Amount: 1 TAO
-- Cannot exceed your Balance
+- You may exceed your balance, only the available balance applies
 - You may lend less than your total Balance
 
 #### 2.3 Set Daily APR
@@ -141,20 +140,6 @@ Define the Daily APR for the loan.
 
 **Range**: 0.01% – 1%
 
-| Daily APR | Monthly (≈) | Annual (≈) | Risk |
-|----------|-------------|------------|------|
-| 0.05% | 1.5% | 18% | Low |
-| 0.1% | 3% | 36% | Medium-Low |
-| 0.2% | 6% | 72% | Medium |
-| 0.5% | 15% | 180% | Medium-High |
-| 1% | 30% | 365% | High |
-
-**Pricing Tips**:
-- Compare with other Offers in the Market
-- Lower APR increases acceptance probability
-- Adjust APR based on Subnet risk
-- Consider ALPHA price volatility
-
 #### 2.4 Set Maximum Acceptable Price
 
 Set the Maximum Acceptable Price for ALPHA.
@@ -162,7 +147,7 @@ Set the Maximum Acceptable Price for ALPHA.
 **Why It Matters**:
 - Prevents overvaluation of collateral
 - ALPHA prices are market-driven and volatile
-- The protocol applies a 90% safety margin
+- If it exceeds 90% of the current price, the contract will automatically block
 
 **Best Practices**:
 - Reference current and historical ALPHA prices
@@ -226,13 +211,11 @@ On the **Lend** page, you can see:
 
 - ✅ When a borrower repays the loan (before collection or after), the **available balance** of your Offer **will be restored**
 - The used amount returns to your Offer pool and becomes available for other borrowers
-- You can continue lending with the same Offer
 
 #### When Loan is Defaulted
 
 - ⚠️ When a loan enters **Collection** and remains unpaid (even after collection grace period), the **available balance of your Offer will NOT be restored**
 - The locked amount remains unavailable until the collateral is claimed
-- This amount cannot be used for new loans until the old loan is fully settled
 
 ---
 

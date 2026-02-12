@@ -59,8 +59,6 @@ Taolend applies multiple layers of security:
 - ⚠️ ALPHA price volatility
 - ⚠️ Borrower default risk (mitigated by collateral)
 
-**Reminder**: Only use funds you can afford to lose.
-
 **Fees Applied**:
 - ✅ **Protocol Fee**: 30% of interest (lenders receive 70%)
 
@@ -296,20 +294,6 @@ Refinancing replaces an active loan with a better Offer:
 After collection ends:
 - ❌ All ALPHA collateral is lost
 - ❌ Collateral is transferred to the lender
-
----
-
-## Fees and Costs
-
-### Are there registration fees?
-
-Registration requires an on-chain transaction and Gas.
-
-### What is the protocol fee?
-
-30% of interest:
-- Borrower pays full interest
-- Lender receives 70%
 
 ---
 

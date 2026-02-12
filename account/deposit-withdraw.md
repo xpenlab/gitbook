@@ -108,7 +108,7 @@ Borrowers deposit ALPHA as collateral to:
 
 3. **Select Subnet**
    - Choose the Subnet where your ALPHA is located
-   - For example: Subnet 116, Subnet 120
+   - For example: 116, 120
 
 #### Step 2: Confirm Deposit
 

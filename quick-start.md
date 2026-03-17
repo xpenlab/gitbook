@@ -4,7 +4,7 @@
 
 ## Choose Your Role
 
-Taolend supports two participation modes. Choose the one that fits your needs:
+Taolend supports three participation modes. Choose the one that fits your needs:
 
 ### 📈 I Want to Earn Interest (Lender)
 
@@ -19,6 +19,14 @@ If you hold **TAO** and want to earn yield through lending:
 If you hold **ALPHA** and want to borrow TAO:
 
 👉 **[Go to Borrower Quick Start Guide](./quick-start-borrow.md)**
+
+---
+
+### 🚀 I Want to Trade with Leverage (Leverage-Long)
+
+If you hold **TAO** and want to amplify your exposure to Alpha token price movements:
+
+👉 **[Go to Leverage-Long Quick Start Guide](./quick-start-leverage.md)**
 
 ---
 

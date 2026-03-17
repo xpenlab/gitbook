@@ -12,6 +12,7 @@ Taolend is a peer-to-peer (P2P) lending platform built on the Bittensor EVM chai
 
 - **Lenders**: Deposit TAO and create loan Offers to earn interest
 - **Borrowers**: Collateralize ALPHA to borrow TAO and access liquidity
+- **Leverage Traders**: Use TAO to open leveraged long positions on Alpha tokens
 - **P2P Matching**: Lenders and borrowers are directly matched through the Offer mechanism
 
 ### How does Taolend work?
@@ -44,6 +45,11 @@ Taolend operates through a P2P Offer-based matching model:
 - ✅ Retain long-term exposure to ALPHA
 - ✅ Access TAO liquidity for other activities
 - ✅ Repay or refinance at any time
+
+**For Leverage Traders**:
+- ✅ Amplify exposure to Alpha price movements with borrowed TAO
+- ✅ Control risk with adjustable leverage and slippage settings
+- ✅ Close position at any time to lock in profits
 
 ### Is Taolend safe to use?
 
@@ -297,6 +303,50 @@ After collection ends:
 
 ---
 
+## Leverage-Long
+
+### What is Leverage-Long?
+
+Leverage-Long allows you to amplify your exposure to Alpha token price increases by combining your own TAO with borrowed TAO to purchase more Alpha than your capital alone allows.
+
+- You deposit TAO as collateral
+- The platform borrows additional TAO on your behalf
+- Combined TAO is used to buy Alpha tokens
+- Purchased Alpha is held as collateral to secure the loan
+
+📖 See: [Leverage-Long](core-features/leverage.md)
+
+### What if a lender initiates collection on my position?
+
+> ❗️ You must **close your position immediately**. Once a lender initiates collection, you have a **3-day grace period** to act. Failure to close before the grace period expires will result in liquidation and **total loss of your principal**.
+
+Steps to close:
+1. Go to **Trade → Active**
+2. Click **Close** on your position
+3. Confirm the transaction
+
+Do not wait — monitor your positions closely at all times.
+
+### Can I close my position at any time?
+
+Yes. You can close your Leverage-Long position at any time:
+- If Alpha price has risen, closing returns your principal plus profit
+- If Alpha price has fallen, closing still recovers your remaining capital (after loan repayment)
+
+Closing early at a small loss is always better than waiting for liquidation.
+
+### How do I get started with Leverage-Long?
+
+1. Bridge TAO to your EVM account
+2. Register and deposit TAO
+3. Go to **Trade → Leverage-Long**
+4. Set Collateral Amount, Leverage, and Slippage
+5. Click **Open Long**
+
+📖 See: [Leverage-Long Quick Start](quick-start-leverage.md)
+
+---
+
 ## Risks and Security
 
 ### What are the main risks?
@@ -310,6 +360,11 @@ After collection ends:
 - Full collateral loss on default
 - Interest costs
 - ALPHA price volatility
+
+**Leverage Traders**:
+- Full principal loss if position is not closed before grace period expires
+- Alpha price volatility amplified by leverage
+- Interest costs on borrowed TAO
 
 ### How do I stay safe?
 

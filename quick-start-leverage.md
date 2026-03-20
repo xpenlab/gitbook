@@ -63,7 +63,6 @@ Taolend operates on the **Bittensor EVM chain**, so your TAO tokens must be brid
 
 2. **Enter Amount**
    - Enter the TAO amount you want to use as collateral
-   - This is the capital you are committing to the position
 
 3. **Complete Deposit**
    - Click **Deposit**
@@ -82,11 +81,12 @@ Taolend operates on the **Bittensor EVM chain**, so your TAO tokens must be brid
 
 2. **Configure Position Parameters**
 
-   - **Collateral Amount**: The amount of TAO you put in as your own capital
+   - **Collateral Amount**: Input the amount of TAO you want to use as collateral for this position
    - **Leverage**: Adjust the multiplier — the system automatically calculates your position size:
      ```
-     Borrowed TAO = Collateral Amount × (Leverage - 1)
-     Size (Alpha) = Total TAO / Alpha Price
+     Borrowed TAO  = Collateral Amount × (Leverage - 1)
+     Total TAO     = Collateral Amount × Leverage
+     Size (Alpha)  = Total TAO / Alpha Price
      ```
    - **Slippage**: Set the maximum acceptable price deviation for the Alpha purchase (recommended: 0.5% – 2%)
 
@@ -122,11 +122,8 @@ Taolend operates on the **Bittensor EVM chain**, so your TAO tokens must be brid
 
 3. **Close at a Loss if Needed**
 
-   If Alpha price has fallen, closing still recovers your remaining capital after loan repayment — always better than waiting for liquidation.
+   If Alpha price has fallen, closing still recovers your remaining collateral after loan repayment — always better than waiting for collection.
 
 4. **Monitor for Collection Risk**
 
-   > ❗️ After the initial 3-day protection period, lenders may initiate collection at any time. If your position enters collection, **close it immediately**. Failure to close within the 3-day grace period will result in liquidation and **total loss of your principal**.
-
-   - Monitor your position status in **Trade → Active**
-   - Act immediately upon any collection notification
+   > ❗️ Lenders can trigger a claim signal starting 3 days after the loan begins. A claim signal starts a 3-day countdown. If you don't close your position in time, ALL ALPHA collateral will be forfeited to the lender. Act IMMEDIATELY if you see IN_COLLECTION!

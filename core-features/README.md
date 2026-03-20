@@ -5,8 +5,8 @@
 ## Feature Overview
 - **[Borrow](borrow.md)**: How to borrow TAO using ALPHA as collateral
 - **[Lend](lend.md)**: How to create Offers and earn interest
-- **[Leverage](leverage.md)**: How to open leveraged positions using TAO and ALPHA
-- **[Swap](swap.md)**: How to swap between TAO and Alpha tokens
+- **[Leverage](leverage.md)**: How to borrow TAO against your ALPHA for leverage
+- **[Swap](swap.md)**: How to swap between free TAO and wallet Alpha tokens
 
 ---
 

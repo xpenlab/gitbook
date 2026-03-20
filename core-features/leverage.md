@@ -32,7 +32,7 @@ When Alpha price rises, your leveraged position amplifies the gains:
 Opening a leveraged position executes the following steps automatically:
 
 1. **Collateralize TAO** — Your own TAO is locked as collateral
-2. **Borrow TAO** — Additional TAO is borrowed from lenders on your behalf
+2. **Borrow TAO** — Additional TAO is borrowed from lenders
 3. **Buy Alpha** — Combined TAO is used to purchase Alpha tokens from the market
 4. **Collateralize Alpha** — Purchased Alpha is deposited as collateral to secure the loan
 
@@ -116,10 +116,10 @@ Before opening a leverage position, prepare the following:
 
 #### 2.1 Enter Collateral Amount
 
-Input the amount of TAO you want to use as your own capital for this position.
+Input the amount of TAO you want to use as collateral for this position.
 
-- Cannot exceed your available TAO Balance
-- This is the maximum amount you can lose if the position is liquidated
+- Cannot exceed your available deposited TAO Balance
+- This is the maximum amount you will lose if the position is claimed by lender
 
 #### 2.2 Adjust Leverage
 
@@ -145,7 +145,7 @@ Size (Alpha)  = Total TAO / Alpha Price
 Slippage tolerance controls the maximum acceptable price deviation when buying Alpha.
 
 - If the actual execution price deviates beyond your slippage setting, the transaction will be cancelled automatically
-- Recommended: **0.5% – 2%** for normal market conditions
+- Recommended: **0.1% – 1%** for normal market conditions
 - Increase slippage during high volatility to ensure execution
 
 #### 2.4 Review Position Summary

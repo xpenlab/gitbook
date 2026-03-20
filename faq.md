@@ -47,7 +47,7 @@ Taolend operates through a P2P Offer-based matching model:
 - ✅ Repay or refinance at any time
 
 **For Leverage Traders**:
-- ✅ Amplify exposure to Alpha price movements with borrowed TAO
+- ✅ Boost your ALPHA position using borrowed TAO
 - ✅ Control risk with adjustable leverage and slippage settings
 - ✅ Close position at any time to lock in profits
 
@@ -307,7 +307,7 @@ After collection ends:
 
 ### What is Leverage-Long?
 
-Leverage-Long allows you to amplify your exposure to Alpha token price increases by combining your own TAO with borrowed TAO to purchase more Alpha than your capital alone allows.
+Borrow TAO against your ALPHA for leverage.
 
 - You deposit TAO as collateral
 - The platform borrows additional TAO on your behalf
@@ -318,7 +318,7 @@ Leverage-Long allows you to amplify your exposure to Alpha token price increases
 
 ### What if a lender initiates collection on my position?
 
-> ❗️ You must **close your position immediately**. Once a lender initiates collection, you have a **3-day grace period** to act. Failure to close before the grace period expires will result in liquidation and **total loss of your principal**.
+> ❗️ If you don't close your position in time, ALL ALPHA collateral will be forfeited to the lender. Act IMMEDIATELY if you see IN_COLLECTION!
 
 Steps to close:
 1. Go to **Trade → Active**
@@ -330,8 +330,8 @@ Do not wait — monitor your positions closely at all times.
 ### Can I close my position at any time?
 
 Yes. You can close your Leverage-Long position at any time:
-- If Alpha price has risen, closing returns your principal plus profit
-- If Alpha price has fallen, closing still recovers your remaining capital (after loan repayment)
+- If the ALPHA price increases, closing your position returns your full collateral plus any accrued profits after the loan is repaid.
+- If the ALPHA price drops, you can still recover your remaining collateral after the loan is repaid.
 
 Closing early at a small loss is always better than waiting for liquidation.
 

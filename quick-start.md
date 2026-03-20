@@ -24,7 +24,7 @@ If you hold **ALPHA** and want to borrow TAO:
 
 ### 🚀 I Want to Trade with Leverage (Leverage-Long)
 
-If you hold **TAO** and want to amplify your exposure to Alpha token price movements:
+If you hold **TAO** and want to amplify your ALPHA position by borrowing TAO against your existing holdings:
 
 👉 **[Go to Leverage-Long Quick Start Guide](./quick-start-leverage.md)**
 

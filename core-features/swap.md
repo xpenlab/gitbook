@@ -11,6 +11,8 @@
 3. Review the **Slippage** and **Minimum Received** values
 4. Click **Swap** to execute the trade
 
+>  Only Free tao and wallet ALPHA is eligible for swap.
+
 ---
 
 ## Parameters
@@ -19,7 +21,7 @@
 |-------|-------------|
 | Pay | The token and amount you are selling |
 | Receive | The token and estimated amount you will receive |
-| Slippage | Maximum acceptable price deviation (recommended: 0.5% – 2%) |
+| Slippage | Maximum acceptable price deviation (recommended: 0.1% – 1%) |
 | Minimum Received | The lowest amount you will receive, calculated based on Slippage |
 
 > If the actual execution price moves beyond the Slippage tolerance, the transaction will be cancelled automatically to protect you from unfavorable rates.

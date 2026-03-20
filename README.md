@@ -8,15 +8,15 @@
 
 ## About Taolend
 
-Taolend is purpose-built for the Bittensor economy, providing a peer-to-peer (P2P) lending platform where lenders create offers and borrowers select offers with the best conditions. In addition, Taolend supports **leverage trading**, allowing users to combine their own TAO with borrowed TAO to purchase Alpha tokens and establish leveraged positions using Alpha as collateral.
+Taolend is purpose-built for the Bittensor economy, providing a peer-to-peer (P2P) lending platform where lenders create offers and borrowers select offers with the best conditions. In addition, Taolend supports **leverage trading**, allowing users to borrow TAO against your ALPHA for leverage.
 
 Loans have **no fixed duration**. Loans cannot be collected within the first 3 days after initiation (collection protection period). After this period, lenders are allowed, but not forced, to initiate collection. Interest is calculated **per block**.
 
 Once a loan enters collection, borrowers have a **3-day** collection grace period to repay. Failure to repay within this period results in liquidation and loss of all ALPHA collateral. Borrowers may **Repay** or **Refinance** at any time before liquidation.
 
-> ❗️Important Notice for Leverage Trading: If a lender initiates collection on your leveraged position, you must **close your position immediately**. Failure to close before the 3-day grace period expires will result in liquidation and **total loss of your principal**. Monitor your leverage positions closely at all times.
+> ❗️Important Notice for Leverage Trading: If a lender initiates collection on your leveraged position, you must **close your position immediately**. Failure to close before the 3-day grace period expires will result in liquidation and **total loss of your collateral**. Monitor your leverage positions closely at all times.
 
-> ❗️Important Notice: After the initial 3-day protection period, a loan may enter collection at any time. Borrowers are strongly advised to monitor their loan status closely and pay attention to email notifications to avoid missing critical actions.
+> ❗️Important Notice: After the initial 3-day protection period, a loan may be collected at any time. Borrowers are strongly advised to monitor their loan status closely and pay attention to email notifications to avoid missing critical actions.
 
 ## Loan Life Cycle
 <div align="center">
